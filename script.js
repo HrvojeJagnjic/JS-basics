@@ -23,7 +23,7 @@ var if = 23;
 */
 
 /* Variable mutation and type coercion */
-
+/*
 var firstName = "John";
 var age = 28;
 console.log(firstName + " " + age);
@@ -58,3 +58,15 @@ alert(
 prompt("What is his last Name?");
 var lastName = prompt("What is his last name?");
 console.log(firstName + " " + lastName);
+*/ /*********************** */
+
+/* basic operators*/
+var year, yearJohn, yearMark;
+now = 2018;
+yearJohn = now - 28;
+yearMark = now - 33;
+
+console.log(yearJohn);
+
+console.log(now + 2);
+console.log(now / 10);
