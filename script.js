@@ -97,3 +97,40 @@ var ageJohn = now - yearJohn;
 var ageMark = 35;
 var average = (ageJohn + ageMark) / 2;
 console.log(average);
+
+//multiple assignements
+var x, y;
+x = y = (3 + 5) * 4 - 6; //8 * 4 - 6 //31 - 6 // 26
+console.log(x, y);
+
+//More operators
+x = x * 2;
+// isto samo drugcije napisano
+x *= 2;
+console.log(x);
+
+x += 10;
+console.log(x);
+x = x + 1;
+x += 1;
+x++;
+console.log(x);
+x--;
+
+//Coding challenge 1
+
+var massMark = 98;
+var heightMark = 1.8;
+var massJohn = 84;
+var heightJohn = 1.83;
+
+var bmiJohn = massJohn / (heightJohn * heightJohn);
+console.log(bmiJohn);
+
+var bmiMark = massMark / (heightMark * heightMark);
+console.log(bmiMark);
+
+var higherBmi = bmiJohn > bmiMark;
+console.log(higherBmi);
+
+console.log("Is John's BMI higher than Marks?" + " " + higherBmi);
